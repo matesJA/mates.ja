@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>JA MATES</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f3ef;
+      color: #333;
+    }
+
+    header {
+      background-color: #6b4f3b;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .categoria {
+      margin-bottom: 30px;
+    }
+
+    .categoria h2 {
+      border-bottom: 2px solid #6b4f3b;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .whatsapp {
+      display: block;
+      width: fit-content;
+      margin: 30px auto;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>JA MATES 🧉</h1>
+  <p>Todo para tu mate en un solo lugar</p>
+</header>
+
+<div class="container">
+
+  <div class="categoria">
+    <h2>Mates</h2>
+    <div class="card">Mate clásico - $XXXX</div>
+    <div class="card">Mate personalizado - $XXXX</div>
+  </div>
+
+  <div class="categoria">
+    <h2>Bombillas</h2>
+    <div class="card">Bombilla acero - $XXXX</div>
+  </div>
+
+  <div class="categoria">
+    <h2>Bombillones</h2>
+    <div class="card">Bombillón premium - $XXXX</div>
+  </div>
+
+  <div class="categoria">
+    <h2>Canastas</h2>
+    <div class="card">Canasta matera - $XXXX</div>
+  </div>
+
+  <div class="categoria">
+    <h2>Termos</h2>
+    <div class="card">Termo 1L - $XXXX</div>
+  </div>
+
+  <div class="categoria">
+    <h2>Yerbas</h2>
+    <div class="card">Yerba clásica - $XXXX</div>
+    <div class="card">Yerba saborizada - $XXXX</div>
+  </div>
+
+  <a class="whatsapp" href="https://wa.me/549XXXXXXXXXX">
+    Pedir por WhatsApp
+  </a>
+
+</div>
+
+<footer>
+  <p>JA MATES - 2026</p>
+</footer>
+
+</body>
+</html>
